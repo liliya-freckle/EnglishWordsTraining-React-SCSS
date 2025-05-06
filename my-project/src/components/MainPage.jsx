@@ -1,5 +1,5 @@
 import React from 'react'
-import { data } from '../constants.js/constants'
+import { data } from './cardsData'
 import { WordsCards } from './WordsCards'
 
 export const MainPage = () => {
