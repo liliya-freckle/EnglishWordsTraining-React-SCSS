@@ -1,0 +1,4 @@
+.wordsCards {
+    display: flex;
+    flex-direction: row;
+}
