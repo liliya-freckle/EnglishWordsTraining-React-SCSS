@@ -12,6 +12,7 @@ const Table = () => {
                     <th className={styles.headerCell}>Слово</th>
                     <th className={styles.headerCell}>Транскрипция</th>
                     <th className={styles.headerCell}>Перевод</th>
+                    <th className={styles.headerCell}></th>
                 </tr>
             </thead>
             <tbody>

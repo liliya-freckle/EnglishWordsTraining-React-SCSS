@@ -1,7 +1,10 @@
+import Earth from '../assets/Earth.jpg';
+
+
 
 export const data = [{
     id: '1',
-    url: '../src/assets/Earth.jpg',
+    url: Earth,
     englishWord: 'World',
     transcription: "[wɜ:ld]",
     translate: 'Мир',

@@ -1,13 +1,10 @@
 import React from 'react'
-import { data } from '../data/cardsData'
-import { WordsCards } from './WordsCards'
 import './MainPage.css'
 import Table from './Table'
 
 export const MainPage = () => {
     return (
         <div className='mainPage'>
-
             <Table />
         </div>
     )
