@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from '../data/cardsData';
+import { data } from '../../data/cardsData';
 import styles from './Table.module.css';
 import TableRow from './TableRow';
 
