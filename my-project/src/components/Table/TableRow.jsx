@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Table.module.css';
 import Button from '../Button/Button';
+import icon from '../../assets/icon.png'
 
 const TableRow = ({ info }) => {
     return (
@@ -10,8 +11,8 @@ const TableRow = ({ info }) => {
             <td className={styles.cell}>{info.transcription}</td>
             <td className={styles.cell}>{info.translate}</td>
             <td className={styles.buttonContainer}>
-                <Button text='Редактировать' />
-                <Button text='Удалить' />
+                <Button type='primary' text='Редактировать'> </Button>
+                <Button type='primary' text='Удалить' />
             </td>
         </tr>
 

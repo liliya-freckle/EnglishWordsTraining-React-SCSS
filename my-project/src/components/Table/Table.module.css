@@ -2,6 +2,7 @@
     width: max-content;
     align-items: center;
     border-collapse: collapse;
+    margin-top: 3rem;
 }
 
 .headerRow {
@@ -26,4 +27,8 @@
 .cell {
     padding: 9px;
     border: 1px solid #ddd;
+}
+
+.buttonContainer {
+    padding: 10px;
 }

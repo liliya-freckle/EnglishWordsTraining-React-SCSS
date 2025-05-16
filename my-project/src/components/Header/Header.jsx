@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Header.module.css'
+import logo from '../../assets/logo.svg'
 
 function Header() {
     return (
         <>
-            <div className='headerContainer'>
-                <img src="./src/assets/logo.svg" />
+            <div className={styles.headerContainer}>
+                <img className='logo' src={logo} />
             </div>
         </>
 

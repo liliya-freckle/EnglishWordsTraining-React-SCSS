@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Button.module.css';
 
-const Button = ({ text }) => {
+const Button = ({ text, type }) => {
+
     return (
-        <button className={styles.button}>{text}</button>
+        <button className={type === 'primary' ? styles.button : styles.secondary} > {text}</button >
     )
 }
 

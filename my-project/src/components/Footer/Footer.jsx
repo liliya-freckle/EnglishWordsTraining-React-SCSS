@@ -1,12 +1,14 @@
 import React from 'react'
-import './footer.css'
+import styles from './Footer.module.css'
+import badge from '../../assets/badge.svg'
+import ru from '../../assets/ru.svg'
 
 function Footer() {
     return (
         <>
-            <div className='footerLine'>
-                <img src="./src/assets/badge.svg" />
-                <img src="./src/assets/ru.svg" />
+            <div className={styles.footerLine}>
+                <img className='badge' src={badge} />
+                <img className='ru' src={ru} />
             </div>
 
         </>
