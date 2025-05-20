@@ -4,16 +4,19 @@ import Button from '../Button/Button'
 
 const CardsFront = ({ info }) => {
     const { englishWord, transcription, translate } = info;
-    const [isSelected, setIsSelected] = useState(false);
+    const [pressed, setPressed] = useState(false);
+    const handlePressedState = () => {
+        setPressed(!pressed)
+    }
 
     return (
         <div className={styles.card}>
             <div className='englishWord'>{englishWord} </div>
             <div className='transcription'>{transcription}</div>
-            {isSelected ? (
-                <div className='translate' onBlur={() => setIsSelected(false)}>{translate}</div>
+            {pressed ? (
+                <div className='translate' onBlur={() => setPressed(false)}>{translate}</div>
             ) : (
-                <Button type='secondary' text='Проверить' onClick={() => setIsSelected(true)} />
+                <Button type='secondary' text='Проверить' onClick={handlePressedState} />
             )
             }
 
