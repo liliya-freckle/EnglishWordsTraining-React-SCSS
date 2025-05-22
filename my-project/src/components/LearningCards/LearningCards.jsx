@@ -9,7 +9,6 @@ const LearningCards = () => {
             {
                 data.map((cards, id) => {
                     return <CardsFront key={id} info={cards} />
-
                 })
             }
         </div>
