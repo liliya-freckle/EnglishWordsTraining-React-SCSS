@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from '../Button/Button'
 import CardsFront from '../LearningCards/CardsFront'
 
-const Carousel = () => {
-    return (
-        <div>
-            <Button text="previous">previous</Button>
+function Carousel(props) {
 
-            <Button text="next">next</Button>
-        </div>
+
+    return (
+        <>
+            <div>
+
+                <Button text="prev"></Button>
+                <Button text="next"></Button>
+            </div>
+        </>
+
     )
 }
 
