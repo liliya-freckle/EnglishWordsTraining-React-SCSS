@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LearningCards from './components/LearningCards/LearningCards';
 import MissingPage from './components/Header/MissingPage';
 import Table from './components/Table/Table';
-import Carusel from './components/Carusel/Carousel';
+import Carusel from './components/Carusel/Carusel';
 import CardsFront from './components/LearningCards/CardsFront';
 
 function App() {
