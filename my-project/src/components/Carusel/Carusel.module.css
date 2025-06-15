@@ -1,4 +1,21 @@
-.caruselContainer {
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+.containerCarusel {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    .containerSlide{
+        display: flex;   
+    }
 }
+
+.containerCard{
+            min-width: 10rem;
+            min-height: 20rem;
+            border: 1px solid #ddd;
+            border-radius: 2rem;
+            align-content: center;
+            background-color: #f9f9f9;
+        }

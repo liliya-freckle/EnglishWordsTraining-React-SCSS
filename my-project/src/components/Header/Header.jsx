@@ -8,7 +8,7 @@ function Header() {
     return (
         <>
             <div className={styles.headerContainer}>
-                <Link to="/" className={styles.logo} /> <img src={logo} />
+                <Link to="/" className={styles.logo} ><img src={logo} /> </Link>
 
                 <NavBar />
             </div>
