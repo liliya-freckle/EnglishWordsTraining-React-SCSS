@@ -1,0 +1,18 @@
+.cardsContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 1rem;
+    margin-top: 7rem;
+
+}
+
+.card {
+    min-width: 10rem;
+    min-height: 20rem;
+    border: 1px solid #ddd;
+    border-radius: 2rem;
+    align-content: center;
+    background-color: #f9f9f9;
+}

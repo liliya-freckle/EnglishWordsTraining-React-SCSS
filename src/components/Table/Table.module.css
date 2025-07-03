@@ -1,0 +1,35 @@
+.table {
+    width: max-content;
+    align-items: center;
+    border-collapse: collapse;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.headerRow {
+    background-color: #f4f4f4;
+}
+
+.headerCell {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.row {
+    transition: background-color 0.2s;
+    border: 1px solid #ddd;
+}
+
+.row:hover {
+    background-color: #f9f9f9;
+}
+
+.cell {
+    padding: 9px;
+    border: 1px solid #ddd;
+}
+
+.buttonContainer {
+    padding: 10px;
+}
