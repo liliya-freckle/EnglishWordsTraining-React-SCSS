@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 12rem;
+}
+.button {
+  width: 12rem;
+  height: 10rem;
+  border-radius: 15px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+.text {
+  bottom: 0.5rem; /* или top / center */
+  left: 0.5rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}

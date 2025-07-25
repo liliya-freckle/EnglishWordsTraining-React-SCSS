@@ -1,6 +1,15 @@
 .footerLine {
-    background-color: #37383c;
-    min-height: 10rem;
-    display: flex;
-
+  background-color: #37383c;
+  min-height: 3rem;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
+}
+.footerText {
+  color: white;
+  align-content: center;
+  justify-content: center;
 }

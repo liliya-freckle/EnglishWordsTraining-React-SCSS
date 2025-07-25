@@ -1,18 +1,12 @@
-import React from 'react'
-import styles from './Footer.module.css'
-import badge from '../../assets/badge.svg'
-import ru from '../../assets/ru.svg'
+import React from "react";
+import styles from "./Footer.module.css";
 
 function Footer() {
-    return (
-        <>
-            <div className={styles.footerLine}>
-                <img className='badge' src={badge} />
-                <img className='ru' src={ru} />
-            </div>
-
-        </>
-    )
+  return (
+    <div className={styles.footerLine}>
+      <div className={styles.footerText}>©Lingualeo</div>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;

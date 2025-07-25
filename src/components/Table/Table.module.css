@@ -1,35 +1,36 @@
 .table {
-    width: max-content;
-    align-items: center;
-    border-collapse: collapse;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+  width: max-content;
+  align-items: center;
+  border-collapse: collapse;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
 }
 
 .headerRow {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 .headerCell {
-    padding: 12px;
-    border: 1px solid #ddd;
-    font-weight: bold;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-weight: bold;
 }
 
 .row {
-    transition: background-color 0.2s;
-    border: 1px solid #ddd;
+  transition: background-color 0.2s;
+  border: 1px solid #ddd;
 }
 
 .row:hover {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .cell {
-    padding: 9px;
-    border: 1px solid #ddd;
+  padding: 9px;
+  border: 1px solid #ddd;
 }
 
 .buttonContainer {
-    padding: 10px;
+  padding: 10px;
 }

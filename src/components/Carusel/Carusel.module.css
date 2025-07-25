@@ -1,22 +1,33 @@
 .containerCarusel {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  .containerSlide {
     display: flex;
-    width: 100vw;
-    height: 100vh;
     align-items: center;
-    justify-content: center;
-    .containerSlide{
-        display: flex;   
-    }
+  }
 }
 
-.containerCard{
-            min-width: 10rem;
-            min-height: 20rem;
-            margin: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 2rem;
-            align-content: center;
-            background-color: #f9f9f9;
-        }
+.containerCard {
+  min-width: 10rem;
+  min-height: 20rem;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  align-content: center;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
+}
+
+.caruselButton {
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
+  border: none;
+  min-height: 2rem;
+  min-width: 2rem;
+  border-radius: 10px;
+}
