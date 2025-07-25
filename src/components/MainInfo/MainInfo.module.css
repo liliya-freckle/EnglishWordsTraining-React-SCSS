@@ -3,21 +3,26 @@
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  margin-top: 12rem;
+  margin-top: 14rem;
 }
 .button {
-  width: 12rem;
+  width: 14rem;
   height: 10rem;
   border-radius: 15px;
-  background-color: #ddd;
+  background-color: #f4f4f4;
+  box-shadow: 2px 2px 4px rgba(161, 121, 74, 0.986);
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 .text {
-  bottom: 0.5rem; /* или top / center */
+  /* bottom: 0.5rem;  */
   left: 0.5rem;
-  color: white;
-  font-weight: bold;
+  color: rgb(104, 102, 102);
   text-decoration: none;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
+  font-weight: 600;
+  align-content: center;
 }

@@ -6,6 +6,7 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  position: relative;
   .containerSlide {
     display: flex;
     align-items: center;
@@ -13,8 +14,8 @@
 }
 
 .containerCard {
-  min-width: 10rem;
-  min-height: 20rem;
+  min-width: 16rem;
+  min-height: 14rem;
   margin: 1rem;
   border: 1px solid #ddd;
   border-radius: 2rem;
@@ -30,4 +31,19 @@
   min-height: 2rem;
   min-width: 2rem;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.caruselButtonClose {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
+  border: none;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 9rem;
+  right: 16rem;
+  z-index: 10;
 }

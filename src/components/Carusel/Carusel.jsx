@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 import styles from "./Carusel.module.css";
 import Words from "./Words";
 import { data } from "../../data/cardsData";
 
 function Carusel(props) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const navigate = useNavigate();
 
   function next() {
     if (activeIndex >= data.length - 1) {
@@ -19,6 +20,9 @@ function Carusel(props) {
     }
     setActiveIndex((prev) => prev - 1);
   }
+  function close() {
+    navigate("/");
+  }
 
   return (
     <div className={styles.containerCarusel}>
@@ -29,6 +33,9 @@ function Carusel(props) {
         <Words item={data[activeIndex]} />
         <button onClick={next} className={styles.caruselButton}>
           {">"}
+        </button>
+        <button onClick={close} className={styles.caruselButtonClose}>
+          {"X"}
         </button>
       </div>
     </div>
