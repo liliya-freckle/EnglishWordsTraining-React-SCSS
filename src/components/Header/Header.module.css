@@ -1,30 +1,30 @@
 .headerContainer {
-    min-height: 5rem;
-    background-color: rgb(241, 236, 227);
-    box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
+  min-height: 5rem;
+  background-color: rgb(241, 236, 227);
+  box-shadow: 2px 2px 4px rgba(114, 114, 114, 0.5);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 30;
 }
 
 .link {
-    color: rgb(104, 102, 102);
-    text-decoration: none;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 3px;
-    font-weight: 500;
+  color: rgb(104, 102, 102);
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  font-weight: 500;
 }
 
 .link:hover {
-    background-color: rgb(88, 158, 88);
-    border-radius: 15px;
-    color: aliceblue;
+  background-color: rgb(88, 158, 88);
+  border-radius: 15px;
+  color: aliceblue;
 }
 
 .logo {
-    cursor: pointer;
+  cursor: pointer;
 }

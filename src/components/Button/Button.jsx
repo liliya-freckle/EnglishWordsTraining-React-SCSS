@@ -1,11 +1,17 @@
-import React, { useState } from 'react'
-import styles from './Button.module.css';
+import React, { forwardRef } from "react";
+import styles from "./Button.module.css";
 
-const Button = ({ text, type, onClick }) => {
+const Button = forwardRef(({ text, type, onClick }, ref) => {
+  return (
+    <button
+      ref={ref}
+      className={type === "primary" ? styles.button : styles.secondary}
+      onClick={onClick}
+    >
+      {" "}
+      {text}
+    </button>
+  );
+});
 
-    return (
-        <button className={type === 'primary' ? styles.button : styles.secondary} onClick={onClick}> {text}</button >
-    )
-}
-
-export default Button
+export default Button;

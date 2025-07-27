@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <div className={styles.footerLine}>
-      <div className={styles.footerText}>©Lingualeo</div>
+      <div className={styles.footerText}>©Lingualeo 2025</div>
     </div>
   );
 }

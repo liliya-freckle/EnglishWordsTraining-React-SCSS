@@ -6,6 +6,7 @@ import { data } from "../../data/cardsData";
 
 function Carusel(props) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [learnedCount, setLearnedCount] = useState(0);
   const navigate = useNavigate();
 
   function next() {
@@ -24,13 +25,17 @@ function Carusel(props) {
     navigate("/");
   }
 
+  function handleTranslate() {
+    setLearnedCount((prev) => prev + 1);
+  }
+
   return (
     <div className={styles.containerCarusel}>
       <div className={styles.containerSlide}>
         <button onClick={prev} className={styles.caruselButton}>
           {"<"}
         </button>
-        <Words item={data[activeIndex]} />
+        <Words item={data[activeIndex]} onTranslate={handleTranslate} />
         <button onClick={next} className={styles.caruselButton}>
           {">"}
         </button>
@@ -38,6 +43,7 @@ function Carusel(props) {
           {"X"}
         </button>
       </div>
+      <p className={styles.counter}>Изучено слов: {learnedCount}</p>
     </div>
   );
 }

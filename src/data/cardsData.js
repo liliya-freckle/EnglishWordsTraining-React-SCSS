@@ -1,115 +1,98 @@
-import Earth from '../assets/Earth.jpg';
-
-
-
-export const data = [{
-    id: '1',
-    url: Earth,
-    englishWord: 'World',
+export const data = [
+  {
+    id: "1",
+    englishWord: "World",
     transcription: "[wɜ:ld]",
-    translate: 'Мир',
+    translate: "Мир",
     tags: "world",
-    tags_json: "[\"world\"]"
-
-},
-{
-    id: '2',
-    url: './src/assets/water.jpg',
-    englishWord: 'Water',
+    tags_json: '["world"]',
+  },
+  {
+    id: "2",
+    englishWord: "Water",
     transcription: "['wɔ:tə]",
-    translate: 'Вода',
+    translate: "Вода",
     tags: "world",
-    tags_json: "[\"world\"]"
-
-},
-{
-    id: '3',
-    url: './src/assets/rain.jpg',
-    englishWord: 'Rain',
+    tags_json: '["world"]',
+  },
+  {
+    id: "3",
+    englishWord: "Rain",
     transcription: "[rein]",
-    translate: 'Дождь',
+    translate: "Дождь",
     tags: "world",
-    tags_json: "[\"world\"]"
-},
-{
-    id: '4',
-    url: './src/assets/table.jpg',
-    englishWord: 'Table',
+    tags_json: '["world"]',
+  },
+  {
+    id: "4",
+    englishWord: "Table",
     transcription: "[teibl]",
-    translate: 'Стол',
+    translate: "Стол",
     tags: "furniture",
-    tags_json: "[\"furniture\"]",
-},
-{
-    id: '5',
-    url: './src/assets/chair.jpg',
-    englishWord: 'Chair',
+    tags_json: '["furniture"]',
+  },
+  {
+    id: "5",
+    englishWord: "Chair",
     transcription: "[ʧeə]",
-    translate: 'Стул',
+    translate: "Стул",
     tags: "furniture",
-    tags_json: "[\"furniture\"]",
-},
-{
-    id: '6',
-    url: './src/assets/bench.jpg',
-    englishWord: 'Bench',
+    tags_json: '["furniture"]',
+  },
+  {
+    id: "6",
+    englishWord: "Bench",
     transcription: "[benʧ]",
-    translate: 'Скамейка',
+    translate: "Скамейка",
     tags: "furniture",
-    tags_json: "[\"furniture\"]",
-},
-{
-    id: '7',
-    url: './src/assets/blouse.jpg',
-    englishWord: 'Blouse',
+    tags_json: '["furniture"]',
+  },
+  {
+    id: "7",
+    englishWord: "Blouse",
     transcription: "[blaʊz]",
-    translate: 'Блузка',
+    translate: "Блузка",
     tags: "clothes",
-    tags_json: "[\"clothes\"]",
-},
-{
-    id: '8',
-    url: './src/assets/children.jpg',
-    englishWord: 'Children',
+    tags_json: '["clothes"]',
+  },
+  {
+    id: "8",
+    englishWord: "Children",
     transcription: "['ʧildrən]",
-    translate: 'Дети',
+    translate: "Дети",
     tags: "people",
-    tags_json: "[\"people\"]",
-},
-{
-    id: '9',
-    url: './src/assets/pants.jpg',
-    englishWord: 'Pants',
+    tags_json: '["people"]',
+  },
+  {
+    id: "9",
+    englishWord: "Pants",
     transcription: "[pænts]",
-    translate: 'Штаны',
+    translate: "Штаны",
     tags: "clothes",
-    tags_json: "[\"clothes\"]",
-},
-{
-    id: '10',
-    url: './src/assets/playground.jpg',
-    englishWord: 'Playground',
+    tags_json: '["clothes"]',
+  },
+  {
+    id: "10",
+    englishWord: "Playground",
     transcription: "['pleigraʊnd]",
-    translate: 'Детская площадка',
+    translate: "Детская площадка",
     tags: "",
-    tags_json: "[\" \"]",
-},
-{
-    id: '11',
-    url: './src/assets/rainbow.jpg',
-    englishWord: 'Rainbow',
+    tags_json: '[" "]',
+  },
+  {
+    id: "11",
+    englishWord: "Rainbow",
     transcription: "['reinbəʊ]",
-    translate: 'Радуга',
+    translate: "Радуга",
     tags: "world",
-    tags_json: "[\"world\"]",
-},
-{
-    id: '12',
-    url: './src/assets/skirt.jpg',
-    englishWord: 'Skirt',
+    tags_json: '["world"]',
+  },
+  {
+    id: "12",
+    englishWord: "Skirt",
     transcription: "[skɜ:t]",
-    translate: 'Юбка',
+    translate: "Юбка",
     tags: "clothes",
-    tags_json: "[\"clothes\"]",
-}
-]
+    tags_json: '["clothes"]',
+  },
+];
